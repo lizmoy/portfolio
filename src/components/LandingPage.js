@@ -13,8 +13,8 @@ export default function LandingPage() {
                 </div>
                 <div className="main">
                     <nav>
-                        <a href="#about" className="nav-link">About</a>
                         <a href="#projects" className="nav-link">Projects</a>
+                        <a href="#about" className="nav-link">About</a>
                         <a href="#contact" className="nav-link">Contact</a>
                     </nav>
                     <img src={computer} alt="" className="computer"/>
