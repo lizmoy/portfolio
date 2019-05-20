@@ -1,33 +1,77 @@
+@font-face {
+  font-family: "Zangezi-Sans";
+  src: url("fonts/ZangeziSans04.woff") format('woff');
+}
+
+html {
+  height: 100%;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+#wave-container {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color: #efb2ad;
+}
+
+#wave {
+  display: block;
+  position: relative;
+  height: 40px;
+  background: #d15c46;
+}
+
+#wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #efb2ad;
+  right: -25%;
+  top: 20px
+}
+
+#wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #d15c46;
+  left: -25%;
+  top: -240px;
+}
+
+.landing-container {
+  background-color: #efb2ad;
+  height: 100vh;
+  display: flex;
+}
+
+.name-container {
+  width: 50%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  font-family: "Zangezi-Sans";
+  font-size: 120pt;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#last {
+  align-self: flex-end;
 }
