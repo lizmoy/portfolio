@@ -206,3 +206,20 @@ h3 {
 .row2 {
   display: flex;
 }
+
+.about {
+  background: #276365;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-text {
+  font-family: 'archiaregular';
+  font-size: 14pt;
+  color: white;
+  width: 65%;
+}
