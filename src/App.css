@@ -156,7 +156,7 @@ h3 {
   font-size: 24pt;
   text-decoration-line: underline;
   color:white;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 }
 
 .projects-container {
@@ -222,4 +222,19 @@ h3 {
   font-size: 14pt;
   color: white;
   width: 65%;
+}
+
+.contact {
+  background: #2c2c2c;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  font-family: 'archiaregular';
+  font-size: 14pt;
+  color: white;
 }
