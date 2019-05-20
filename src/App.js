@@ -5,10 +5,10 @@ import LandingPage from './components/LandingPage';
 function App() {
   return (
     <div className="App">
-        <div id="wave-container">
+        {/* <div id="wave-container">
           <div id="wave">
           </div>
-        </div>
+        </div> */}
      <LandingPage/>
     </div>
   );

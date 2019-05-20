@@ -3,6 +3,14 @@
   src: url("fonts/ZangeziSans04.woff") format('woff');
 }
 
+@font-face {
+  font-family: 'archiaregular';
+  src: url('fonts/archia-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html {
   height: 100%;
 }
@@ -13,7 +21,7 @@ html {
   flex-direction: column;
 }
 
-#wave-container {
+/* #wave-container {
   width: 100%;
   height: 100px;
   overflow: hidden;
@@ -24,7 +32,7 @@ html {
   display: block;
   position: relative;
   height: 40px;
-  background: #d15c46;
+  background: #7a83a0;
 }
 
 #wave:before {
@@ -46,25 +54,63 @@ html {
   border-radius: 100%;
   width: 100%;
   height: 300px;
-  background-color: #d15c46;
+  background-color: #7a83a0;
   left: -25%;
   top: -240px;
-}
+} */
 
-.landing-container {
-  background-color: #efb2ad;
+.landing-main {
+  background: #da9c53;
   height: 100vh;
   display: flex;
+  overflow: hidden;
+}
+
+nav {
+  height: 80px;
+  position: relative;
+  z-index: 5;
+  /* left: 40%; */
+  display: flex;
+  transform: rotate(10.5deg) skew(-18deg); 
+  top: 20%;
+  justify-content: center;
+}
+
+.nav-link {
+  font-family: 'archiaregular';
+  font-size: 18pt;
+  color: #d8b9b4;
+  margin: 20px 30px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration-line: underline;
+}
+
+.main {
+  width: 75%;
+  height: 95vh;
+  background-color: #276365;
+  position: relative;
+  z-index: 1;
+  transform: rotate(-10deg) skew(20deg); 
+  top: -20%;
+  left: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .name-container {
-  width: 50%;
+  width: 55%;
   height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin-top: 150px;
+  padding-right: 60px;
 }
 
 .name {
@@ -75,3 +121,32 @@ html {
 #last {
   align-self: flex-end;
 }
+
+.description {
+  font-family: "Zangezi-Sans";
+  font-size: 24pt;
+  margin-left: 190px;
+}
+
+.computer {
+  position: relative;
+  z-index: 8;
+  max-height: 200px;
+  left: -16%;
+  top: 300px;
+  margin: 0;
+  padding: 0;
+  transform: rotate(10.5deg) skew(-18deg); 
+}
+
+.mobile{
+  position: relative;
+  z-index: 6;
+  width: 220px;
+  left: -14%;
+  top: 220px;
+  margin: 0;
+  padding: 0;
+  transform: rotate(10.5deg) skew(-18deg); 
+}
+
