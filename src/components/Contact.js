@@ -7,6 +7,7 @@ export default function Contact() {
     return (
         <div className="contact" id="contact">
             <h3>Let's connect</h3>
+            <p className="connect">Currently looking for full-time and freelance work. Don't hesitate to get in touch!</p>
             <div className="contact-options">
                 <div className="contact-option">
                     <a className="contact-link" href="mailto:elizabethtmoy@gmail.com" target="blank"><img src={email} id="email" alt=""/></a>
