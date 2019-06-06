@@ -4,7 +4,7 @@ import mobile from '../images/mobile1.png'
 
 export default function LandingPage() {
     return (
-        <div className="landing-container">
+        <div className="landing-container" id="landing">
             <div className="landing-main">
                 <div className="name-container">
                     <div className="name">Liz</div>

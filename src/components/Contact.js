@@ -2,6 +2,7 @@ import React from 'react'
 import email from '../images/email.svg'
 import linkedin from '../images/linkedin-white.svg'
 import github from '../images/github-white.svg'
+import arrow from '../images/arrow-anchor.png'
 
 export default function Contact() {
     return (
@@ -22,6 +23,7 @@ export default function Contact() {
                     <p className="contact-text">Github</p>
                 </div>
             </div>
+            <a href="#landing" className="anchor-wrapper"><img src={arrow} className="anchor" alt=""/></a>
         </div>
     )
 }

@@ -289,6 +289,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .contact-link {
@@ -328,4 +329,22 @@ h3 {
 .contact-text {
   color: white;
   font-family: 'archiaregular';
+}
+
+.anchor {
+  height: 50px;
+  opacity: 0.90;
+}
+
+.anchor:hover {
+  opacity: 1;
+}
+
+.anchor-wrapper{
+  position: relative;
+  align-self: flex-end;
+  margin-bottom: 5px;
+  margin-right: 50px;
+  z-index: 20;
+  top: -15%;
 }
