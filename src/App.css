@@ -296,3 +296,26 @@ h3 {
   font-size: 14pt;
   color: white;
 }
+
+.contact-options {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.contact-option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email, #linkedin, #github {
+  width: 70px;
+}
+
+.contact-text {
+  color: white;
+  font-family: 'archiaregular';
+}
