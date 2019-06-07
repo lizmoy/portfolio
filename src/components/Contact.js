@@ -7,7 +7,7 @@ import arrow from '../images/arrow-anchor.png'
 export default function Contact() {
     return (
         <div className="contact" id="contact">
-            <h3>Let's connect</h3>
+            <h3 id="connect">Let's connect</h3>
             <p className="connect">Currently looking for full-time and freelance work. Don't hesitate to get in touch!</p>
             <div className="contact-options">
                 <div className="contact-option">
@@ -23,7 +23,10 @@ export default function Contact() {
                     <p className="contact-text">Github</p>
                 </div>
             </div>
-            <a href="#landing" className="anchor-wrapper"><img src={arrow} className="anchor" alt=""/></a>
+            <div className="anchor-div">
+                <a href="#landing" className="anchor-wrapper"><img src={arrow} className="anchor" alt=""/></a>
+                <p className="back-to-top">Back to top</p>
+            </div>
         </div>
     )
 }
