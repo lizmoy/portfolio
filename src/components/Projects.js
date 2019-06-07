@@ -21,7 +21,7 @@ export default function Projects() {
                         </div>
                         <div className="project-text">
                             <p>A desktop browser game built with HTML, CSS, and vanilla JavaScript</p>
-                            <a className="project-github" href="https://github.com/lizmoy/popaholic" target="blank">See the code on Github</a>
+                            <a className="project-github" id="mobile-row1" href="https://github.com/lizmoy/popaholic" target="blank">See the code on Github</a>
                         </div>
                     </div>
                     <div className="project-div">
@@ -31,7 +31,7 @@ export default function Projects() {
                         </div>
                         <div className="project-text">
                             <p>A React app using data from the Merriam Webster API and NewsAPI</p>
-                            <a className="project-github" href="https://github.com/lizmoy/dictionary-app" target="blank">See the code on Github</a>
+                            <a className="project-github" id="mobile-row2" href="https://github.com/lizmoy/dictionary-app" target="blank">See the code on Github</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function Projects() {
                         </div>
                         <div className="project-text">
                             <p>A full stack app built in React and Express. Features: full CRUD and user authentication</p>
-                            <a className="project-github" href="https://github.com/lizmoy/Iterator" target="blank">See the code on Github</a>
+                            <a className="project-github" id="mobile-row3" href="https://github.com/lizmoy/Iterator" target="blank">See the code on Github</a>
                         </div>
                     </div>
                     <div className="project-div">

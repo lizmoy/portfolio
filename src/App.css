@@ -8,7 +8,6 @@
   src: url('fonts/archia-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 html {
@@ -364,4 +363,97 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center
+}
+
+/* ========== Media Query ========== */
+@media screen and (max-width: 414px) and (min-width: 320px){
+  .name {
+    font-size: 80pt;
+  }
+
+  .name-container {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-top: 220px;
+  }
+
+  .description {
+    font-size: 20pt;
+    margin: 5px 30px 5px 30px;
+  }
+
+  .main {
+    width: 90%;
+    height: 45%;
+    left: -250px;
+  }
+
+  .computer {
+    height: 33%;
+    left: -5%;
+    top: 345px;
+  }
+
+  .mobile {
+    width: 31%;
+    top: 280px;
+    left: -20%;
+  }
+
+  .row1, .row2 {
+    flex-direction: column;
+  }
+
+  .project-div {
+    width: 380px;
+  }
+
+  .project-image {
+    width: 90%;
+  }
+
+  .overlay {
+    left: 5%;
+    width: 90%;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-text {
+    text-align: center;
+  }
+
+  #mobile-row1, #mobile-row3 {
+    margin-bottom: 70px;
+  }
+
+  #mobile-row2 {
+    margin-bottom: 30px;
+  } 
+
+  .about-text {
+    width: 85%;
+  }
+
+  #email, #linkedin, #github {
+    width: 40px;
+  }
+
+  .anchor {
+    height: 25px;
+  }
+
+  .back-to-top {
+    font-size: 6pt;
+  }
+
+  .anchor-div {
+    top: -10%;
+    margin-right: 18px;
+  }
 }
